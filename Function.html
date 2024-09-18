@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //   {   Function is a block of code statements used to perform a task 
+        //      Eg:function add(){
+        //          let a = 5
+        //           let b = 5
+        //            let r = a + b;
+        //          console.log(r)
+        // }
+        // add();
+
+        //non parameterised
+        function add() {
+            let a = 12;
+            let b = 12;
+            let sum = a + b;
+            document.write(sum + "<br>");
+        }
+
+
+        add();
+
+        function sub(a, b) {
+            let sub = a - b;
+            document.write(sub + "<br>");
+        }
+        sub(15, 7);
+        function multiply(first, second) {
+            let mult = first * second;
+            document.write(mult + "<br>");
+        }
+
+        let n1 = parseInt(window.prompt("enter a number first "));
+        let n2 = parseInt(window.prompt("enter a number second "));
+
+
+        multiply(n1,n2);
+    </script>
+</body>
+
+</html>
